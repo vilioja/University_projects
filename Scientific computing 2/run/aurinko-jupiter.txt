@@ -1,0 +1,8 @@
+#Aurinko ja Jupiter seuraavassa formaatissa, yksiköt ovat AU, AU/yr, M_sol
+#x-paikka, y-paikka, z-paikka, x-nopeus, y-nopeus, z-nopeus, massa
+#
+#Aurinko
+0. 0. 0. 0. 0. 0. 1.
+#
+#Jupiter
+0. 5.20260 0. 2.75581 0. 0. 9.5511e-04

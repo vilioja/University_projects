@@ -1,0 +1,8 @@
+#Maa ja Kuu seuraavassa formaatissa, yksiköt ovat AU, AU/yr, M_sol
+#x-paikka, y-paikka, z-paikka, x-nopeus, y-nopeus, z-nopeus, massa
+#
+#Maa
+0. 0. 0. 0. 0. 0. 3.0000e-06
+#
+#Kuu
+0. 0.00257 0. 0.215721 0. 0. 3.6943e-08

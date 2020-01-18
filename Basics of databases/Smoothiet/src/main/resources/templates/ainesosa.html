@@ -1,0 +1,35 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+    <head>
+        <title>Ainesosat</title>
+    </head>
+
+    <body>
+        <h1>Lista ainesosista</h1>
+
+        <ul>
+            <li th:each="ainesosa: ${ainesosat}">
+                <span th:text="${ainesosa.nimi}">esimerkki_nimi</span>
+                <form method="POST" th:action="@{~/ainesosa/{ainesosaId}/delete(ainesosaId=${ainesosa.id})}"><input type="submit" value="Poista"/></form>
+                <form method="GET" th:action="@{~/ainesosasmoothiet/{ainesosaId}/(ainesosaId=${ainesosa.id})}"><input type="submit" value="Näytä smoothiet"/></form>
+                <br/>
+            </li>
+        </ul>
+        <br/>
+        <h4>Lisää ainesosa</h4> <br/>
+        <form action="/ainesosanlisays" method="POST">
+            Ainesosan nimi: <br/>
+            <input type="text" name="ainesosa"/>
+            <input type="submit" value="Lisää ainesosa"/>
+        </form>
+        <br/>
+        <ul>
+            <li>
+                <a href="/">Palaa etusivulle</a>
+            </li>
+        </ul>
+
+    </body>
+
+</html>

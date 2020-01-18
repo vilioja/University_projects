@@ -1,0 +1,29 @@
+#Aurinko ja planeettoja seuraavassa formaatissa, yksiköt ovat AU, AU/yr, M_sol
+#x-paikka, y-paikka, z-paikka, x-nopeus, y-nopeus, z-nopeus, massa
+#
+#Aurinko
+0. 0. 0. 0. 0. 0. 1.
+#
+#Merkurius
+0.387 0. 0. 0. -9.992 0. 1.66e-07
+#
+#Venus
+0. -0.723 0. -7.378 0. 0. 2.449e-06
+#
+#Maa
+0. 1. 0. 6.28318531 0. 0. 3.0000e-06
+#
+#Mars
+-1.524 0. 0. 0. 5.076 0. 3.2271e-07
+#
+#Jupiter
+5.20260 0. 0. 0. -2.75581 0. 9.5511e-04
+#
+#Saturnus
+0. -9.554909 0. -2.03806 0. 0. 2.85812e-04
+#
+#Uranus
+0. 19.2184 0. 1.43718 0. 0. 4.36576e-05
+#
+#Neptunus
+-30.110 0. 0. 0. 1.14799 0. 5.15028e-05

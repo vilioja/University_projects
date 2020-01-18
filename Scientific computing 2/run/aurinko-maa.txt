@@ -1,0 +1,8 @@
+#Aurinko ja Maa seuraavassa formaatissa, yksiköt ovat AU, AU/yr, M_sol
+#x-paikka, y-paikka, z-paikka, x-nopeus, y-nopeus, z-nopeus, massa
+#
+#Aurinko
+0. 0. 0. 0. 0. 0. 1.
+#
+#Maa
+0. 1. 0. 6.28318531 0. 0. 3.0000e-06

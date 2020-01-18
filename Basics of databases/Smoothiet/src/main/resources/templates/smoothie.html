@@ -1,0 +1,26 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title th:text="${smoothie.nimi}">testi</title>
+    </head>
+    
+
+    <body>
+        <h1 th:text="${smoothie.nimi}">testi</h1>
+
+
+        <ol>
+            <li th:each="sa: ${sa}">
+                <span th:text="${sa.ainesosanNimi}">test</span>, <span th:text="${sa.maara}">test</span>, <span th:text="${sa.ohje}">test</span>
+             <br/>
+            </li>
+        </ol>
+        <br/> 
+        <ul>
+            <li>
+                <a href="/">Palaa etusivulle</a>
+            </li>
+        </ul>
+        
+    </body>
+</html>
